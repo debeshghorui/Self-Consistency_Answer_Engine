@@ -1,0 +1,21 @@
+{
+  "name": "multi-agents",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "bun run index.ts"
+  },
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.110.0",
+    "@google/genai": "^2.10.0",
+    "@openai/agents": "^0.13.0",
+    "dotenv": "^17.4.2"
+  }
+}
