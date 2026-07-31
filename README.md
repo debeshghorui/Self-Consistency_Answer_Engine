@@ -1,4 +1,4 @@
-# Multi Agents System
+# Self-Consistency Answer Engine
 
 An experimental multi-agent AI comparison project built with Bun and TypeScript. It runs the same prompt through multiple model providers, compares their responses, and uses a judge step to pick the best answer.
 
